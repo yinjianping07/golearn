@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0afe42bf-02ad-4d31-81b4-ee5e8e4adce7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources/0911ac8d-6ccc-47e3-a88c-743bf7edb674.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/bee.exe" afterDir="false" />
