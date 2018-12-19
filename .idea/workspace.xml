@@ -1,12 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0afe42bf-02ad-4d31-81b4-ee5e8e4adce7" name="Default Changelist" comment="" />
+    <list default="true" id="0afe42bf-02ad-4d31-81b4-ee5e8e4adce7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0911ac8d-6ccc-47e3-a88c-743bf7edb674.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bee.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/ffjson.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/api.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/bale.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/beefix.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/dlv.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/dockerize.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/generate.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/hprose.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/migrate.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/new.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/pack.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/rs.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/run.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/server.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/cmd/commands/version.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/config.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/generate.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/generate/swaggergen.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/logger.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/logger/colors.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/utils.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/astaxie/beego/swagger.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/astaxie/beego/utils.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/config.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/frame.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/line.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/op.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/reader.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/util.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/proc.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/api.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/debugger.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpc1.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpc2.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpccommon.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/terminal.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/version.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/fsnotify/fsnotify.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/go-sql-driver/mysql.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/gorilla/websocket.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/lib/pq.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/lib/pq/oid.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/mattn/go-colorable.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/mattn/go-isatty.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/github.com/peterh/liner.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/golang.org/x/debug/dwarf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/golang.org/x/debug/elf.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/golang.org/x/debug/macho.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/golang.org/x/sys/unix.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/golang.org/x/sys/windows.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/gopkg.in/yaml.v2.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/beego/bee/vendor/rsc.io/x86/x86asm.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/ffjson.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/fflib/v1.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/fflib/v1/internal.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/generator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/inception.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/shared.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/go.stripe/base.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/go.stripe/ff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/goser/base.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/goser/ff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/number/ff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/types/ff.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/pquerna/ffjson/tests/vendor/github.com/foo/vendored.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/Knetic/govaluate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/astaxie/beego" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/beego/bee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/beego/goyaml2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/beego/x2j" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/belogik/goes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/bradfitz/gomemcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/casbin/casbin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/cloudflare/golz4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/couchbase/go-couchbase" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/couchbase/gomemcached" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/couchbase/goutils" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/elazarl/go-bindata-assetfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/go-redis/redis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/gogo/protobuf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/gomodule/redigo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/google/gofuzz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/lib/pq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/mattn/go-sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/pkg/errors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/pquerna/ffjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/siddontang/ledisdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ssdb/gossdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/stretchr/testify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/wendal/errors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="go: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1761612525">
@@ -16,11 +148,76 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="2" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="2" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="47" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="47" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2371">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#13#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="F:\go\goinstall" />
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -48,6 +245,24 @@
               <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
               <item name="gopath" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gopath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gopath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goc2p" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gopath" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="goc2p" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -55,12 +270,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,18 +303,18 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5020979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -107,5 +325,32 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/go" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2371">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#13#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
