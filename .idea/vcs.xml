@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/Knetic/govaluate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/astaxie/beego" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/astaxie/goredis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/bee" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/goyaml2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/x2j" vcs="Git" />
@@ -14,19 +15,25 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/go-couchbase" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/gomemcached" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/couchbase/goutils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/cweill/gotests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/elazarl/go-bindata-assetfs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/go-redis/redis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/gogo/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/golang/tools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/gomodule/redigo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/google/gofuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jtolds/gls" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/lib/pq" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/mattn/go-sqlite3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/pquerna/ffjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/siddontang/ledisdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/assertions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/goconvey" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/ssdb/gossdb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/tools/godep" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/wendal/errors" vcs="Git" />
   </component>
 </project>
