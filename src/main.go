@@ -18,7 +18,7 @@ func DesEnCrypt(src, key []byte) []byte {
 	}
 
 	//Fill函数即为对明文的填充，即，DES加密的明文长度为64位，
-	// 少于64位可以填充，多余64位可以根据64位一块，形成多个块，不够的填充。
+	//少于64位可以填充，多余64位可以根据64位一块，形成多个块，不够的填充。
 	//block.BlockSize()就是加密的块长度，fill函数会将明文按照块长度进行分组。
 	//这样就形成了多个明文分组。以便于进行DES加密
 	srcc := Fill(src, block.BlockSize())
@@ -59,7 +59,7 @@ func DesDecrypt(src, key []byte) []byte {
 }
 
 func main() {
-	src := []byte("iamwek")
+	src := []byte("iamwekadfasafdsfasdf")
 	key := []byte("12345679")
 
 	crypt := fmt.Sprintf("%x", DesEnCrypt(src, key))
@@ -69,11 +69,6 @@ func main() {
 	fmt.Printf("%s", DesDecrypt(DesEnCrypt(src, key), key))
 	fmt.Println()
 }
-
-
-
-
-
 
 func Fill(src []byte, blocksize int) []byte {
 	fillsize := blocksize - len(src)%blocksize
