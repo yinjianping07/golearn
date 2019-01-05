@@ -47,14 +47,16 @@ func (c *DesController) Post(){
 		return
 	} else {
 		DesString := models.FindDes(test.Src)
-		//DesString := string(models.DesDecrypt(models.DesEnCrypt([]byte(h.Src),[]byte(h.Key)), []byte(test.Key)))
+
+		fmt.Println(DesString.Key)
+		DesTest := string(models.DesDecrypt(models.DesEnCrypt([]byte(DesString.Src),[]byte(DesString.Key)), []byte(DesString.Key)))
 		c.Data["json"] = map[string]interface{}{
 			"success":0,
 			"TimeStamp":time.Now().UnixNano() / 1e6,
 			"Src":DesString.Decrypt,
 			"Key":DesString.Key,
 			//"cipherText":DesEnString,
-			"Decrypt":DesString.Src,
+			"Decrypt":DesTest,
 		}
 		//fmt.Println(c.Data)
 		c.ServeJSON()

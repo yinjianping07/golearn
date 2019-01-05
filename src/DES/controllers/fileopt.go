@@ -13,7 +13,7 @@ type FileOptUploadController struct {
 
 //页面
 func (c *FileOptUploadController) Get() {
-	c.TplName = "page"
+	c.TplName = "page.html"
 }
 
 //上传文件
@@ -35,7 +35,7 @@ func (this *FileOptUploadController) Post(){
 	//static/uploadfile,这个是文件的地址，第一个static前面不要有/
 	this.SaveToFile("image", path.Join("static/uploadfile",filename))
 	//显示在本页面，不做跳转操作
-	this.TplName = "page.l"
+	this.TplName = "page.,html"
 }
 
 //下载文件
