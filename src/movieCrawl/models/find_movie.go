@@ -192,7 +192,7 @@ func FindMovieGrade(str string) string{
 	reg := regexp.MustCompile(`<strong\s*class="ll\s*rating_num"\s*property="v:average">(.*?)</strong>`)
 	result := reg.FindAllStringSubmatch(str,-1)
 	MovieGrade := ""
-	//fmt.Println(result)
+	fmt.Println(result[0][1])
 	MovieGrade = result[0][1]
 	return MovieGrade
 }

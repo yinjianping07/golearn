@@ -5,6 +5,7 @@ import (
 	"crypto/cipher"
 	"crypto/des"
 	"fmt"
+	"movieCrawl/models"
 )
 
 //DES加密函数，src即明文，key即密钥，得到一个密文返回
@@ -59,15 +60,29 @@ func DesDecrypt(src, key []byte) []byte {
 }
 
 func main() {
-	src := []byte("iamwekadfasafdsfasdf")
-	key := []byte("12345679")
+	//src := []byte("iamwekadfasafdsfasdf")
+	//key := []byte("12345679")
+	//
+	//crypt := fmt.Sprintf("%x", DesEnCrypt(src, key))
+	//fmt.Print(crypt)
+	//fmt.Println()
+	//
+	//fmt.Printf("%s", DesDecrypt(DesEnCrypt(src, key), key))
+	//fmt.Println()
 
-	crypt := fmt.Sprintf("%x", DesEnCrypt(src, key))
-	fmt.Print(crypt)
-	fmt.Println()
-
-	fmt.Printf("%s", DesDecrypt(DesEnCrypt(src, key), key))
-	fmt.Println()
+	//urlString := httplib.Get("https://movie.douban.com/subject/1865703/")
+	//urlHtml,err := urlString.String()
+	//if err != nil {
+	//	panic(error.Error(err))
+	//}
+	//tempmovie := models.FindAMovie(urlHtml,1865703)
+	//fmt.Println(tempmovie)
+	//i,err1 := models.AddMovie(&tempmovie)
+	//if err1 != nil {
+	//	panic(err1)
+	//}
+	//fmt.Println(i)
+	models.SelectAllMovie()
 }
 
 func Fill(src []byte, blocksize int) []byte {

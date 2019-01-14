@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/httplib"
 	"movieCrawl/models"
@@ -18,7 +19,7 @@ func (c *MovieCrawlController) MovieCrawl() {
 	//电影
 	var movieinfo models.MovieInfo
 	//连接redis
-	models.ConnectRedis(beego.AppConfig.String("redisUrl"))
+	models.ConnectRedis("192.168.117.132:6379")
 
 	models.PutInQueue(rootUrl)
 	for{
@@ -31,10 +32,13 @@ func (c *MovieCrawlController) MovieCrawl() {
 			continue
 		}
 		sMovieHtml := GetUrlHtml(tempUrl)
+		count := 0
 		if models.FindMovieName(sMovieHtml) != "" {
 			//入库
+			fmt.Println("插入")
 			movieinfo = models.FindAMovie(sMovieHtml,models.FindMovieId(tempUrl))
 			models.AddMovie(&movieinfo)
+			count++
 		}
 		//提取该页面的所有连接
 		urls := models.FindMovieURLs(sMovieHtml)
@@ -52,7 +56,7 @@ func (c *MovieCrawlController) MovieCrawl() {
 
 //封装一下从url中得到html过程
 func GetUrlHtml(url string)(string){
-	res := httplib.Get(url)
+	res := httplib.Get(url).SetTimeout(2*time.Second,2*time.Second)
 	UrlHtml,err := res.String()
 	if err != nil {
 		panic(err)
