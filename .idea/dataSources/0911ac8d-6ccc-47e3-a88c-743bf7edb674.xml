@@ -918,68 +918,660 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="231" parent="2" name="des_table">
+    <table id="231" parent="2" name="anju_ke">
+      <Comment>安居客房源表</Comment>
+    </table>
+    <table id="232" parent="2" name="bei_ke">
+      <Comment>贝壳房源表</Comment>
+    </table>
+    <table id="233" parent="2" name="des_table">
       <Comment>信息</Comment>
     </table>
-    <table id="232" parent="2" name="go_dev"/>
-    <column id="233" parent="231" name="id">
+    <table id="234" parent="2" name="go_dev"/>
+    <table id="235" parent="2" name="hibernate_sequence">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="236" parent="2" name="module"/>
+    <table id="237" parent="2" name="movie_comment">
+      <Comment>电影短评表</Comment>
+    </table>
+    <table id="238" parent="2" name="movie_info">
+      <Comment>电影信息表</Comment>
+    </table>
+    <table id="239" parent="2" name="sys_permission">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="240" parent="2" name="sys_role">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="241" parent="2" name="sys_role_permission">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="242" parent="2" name="sys_user_role">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="243" parent="2" name="user_info">
+      <Engine>MyISAM</Engine>
+    </table>
+    <column id="244" parent="231" name="id">
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="231" name="src">
+    <column id="245" parent="231" name="room_name">
+      <Position>2</Position>
+      <Comment>房源所在小区</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="231" name="room_area">
+      <Position>3</Position>
+      <Comment>房源面积</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="231" name="room_type">
+      <Position>4</Position>
+      <Comment>房源户型</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="248" parent="231" name="room_age">
+      <Position>5</Position>
+      <Comment>房源年限</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="249" parent="231" name="room_url">
+      <Position>6</Position>
+      <Comment>房源地址</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="250" parent="231" name="room_panorama">
+      <Position>7</Position>
+      <Comment>是否全景</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="231" name="_create_time">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="231" name="_modify_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="253" parent="231" name="idx_create_time">
+      <ColNames>_create_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="254" parent="231" name="idx_modify_time">
+      <ColNames>_modify_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="255" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="256" parent="232" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="257" parent="232" name="room_name">
+      <Position>2</Position>
+      <Comment>房源所在小区</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="258" parent="232" name="room_area">
+      <Position>3</Position>
+      <Comment>房源面积</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="232" name="room_type">
+      <Position>4</Position>
+      <Comment>房源户型</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="260" parent="232" name="room_age">
+      <Position>5</Position>
+      <Comment>房源年限</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="232" name="room_url">
+      <Position>6</Position>
+      <Comment>房源地址</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="262" parent="232" name="room_panorama">
+      <Position>7</Position>
+      <Comment>是否全景</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="263" parent="232" name="_create_time">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="264" parent="232" name="_modify_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="265" parent="232" name="idx_create_time">
+      <ColNames>_create_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="266" parent="232" name="idx_modify_time">
+      <ColNames>_modify_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="267" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="268" parent="233" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="233" name="src">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="231" name="key">
+    <column id="270" parent="233" name="key">
       <Position>3</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="231" name="decrypt">
+    <column id="271" parent="233" name="decrypt">
       <Position>4</Position>
       <DataType>varchar(500)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="237" parent="231" name="PRIMARY">
+    <key id="272" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="238" parent="232" name="no">
+    <column id="273" parent="234" name="no">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="232" name="name">
+    <column id="274" parent="234" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="age">
+    <column id="275" parent="234" name="age">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="class">
+    <column id="276" parent="234" name="class">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="242" parent="232" name="PRIMARY">
+    <key id="277" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>no</ColNames>
       <Primary>1</Primary>
+    </key>
+    <column id="278" parent="235" name="next_val">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="236" name="mid">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="236" name="mname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="281" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>mid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="282" parent="237" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="237" name="movie_name">
+      <Position>2</Position>
+      <Comment>电影名</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="237" name="user_name">
+      <Position>3</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="237" name="movie_type">
+      <Position>4</Position>
+      <Comment>电影类型</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="237" name="comment_star">
+      <Position>5</Position>
+      <Comment>用户所给星级</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="237" name="comment_time">
+      <Position>6</Position>
+      <Comment>评论时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="237" name="movie_grade">
+      <Position>7</Position>
+      <Comment>电影评分</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="237" name="good_comment">
+      <Position>8</Position>
+      <Comment>好评率</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="237" name="middle_comment">
+      <Position>9</Position>
+      <Comment>一般率</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="237" name="bad_comment">
+      <Position>10</Position>
+      <Comment>差评率</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="237" name="short_comment">
+      <Position>11</Position>
+      <Comment>电影短评</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="237" name="_create_time">
+      <Position>12</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="237" name="_modify_time">
+      <Position>13</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="295" parent="237" name="_status">
+      <Position>14</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="296" parent="237" name="idx_create_time">
+      <ColNames>_create_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="297" parent="237" name="idx_modify_time">
+      <ColNames>_modify_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="298" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="299" parent="238" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="238" name="movie_id">
+      <Position>2</Position>
+      <Comment>电影id</Comment>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="238" name="movie_name">
+      <Position>3</Position>
+      <Comment>电影名</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="238" name="movie_picture">
+      <Position>4</Position>
+      <Comment>电影图片</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="238" name="movie_director">
+      <Position>5</Position>
+      <Comment>电影导演</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="238" name="movie_writer">
+      <Position>6</Position>
+      <Comment>电影编剧</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="238" name="movie_country">
+      <Position>7</Position>
+      <Comment>电影产地</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="238" name="movie_main_character">
+      <Position>8</Position>
+      <Comment>电影主演</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="238" name="movie_type">
+      <Position>9</Position>
+      <Comment>电影类型</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="238" name="movie_on_time">
+      <Position>10</Position>
+      <Comment>电影上映时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="238" name="movie_span">
+      <Position>11</Position>
+      <Comment>电影时长</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="238" name="movie_grade">
+      <Position>12</Position>
+      <Comment>电影评分</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="238" name="remark">
+      <Position>13</Position>
+      <Comment>电影评论</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="312" parent="238" name="_create_time">
+      <Position>14</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="238" name="_modify_time">
+      <Position>15</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="314" parent="238" name="_status">
+      <Position>16</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="315" parent="238" name="idx_movie_id">
+      <ColNames>movie_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="316" parent="238" name="idx_create_time">
+      <ColNames>_create_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="317" parent="238" name="idx_modify_time">
+      <ColNames>_modify_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="318" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="319" parent="239" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="239" name="available">
+      <Position>2</Position>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="239" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="239" name="parent_id">
+      <Position>4</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="239" name="parent_ids">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="239" name="permission">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="239" name="resource_type">
+      <Position>7</Position>
+      <DataType>enum(&apos;menu&apos;, &apos;button&apos;)|0e</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="239" name="url">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="327" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="328" parent="240" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="240" name="available">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="240" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="240" name="role">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="240" name="availbale">
+      <Position>5</Position>
+      <DataType>bit(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="333" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="334" parent="241" name="permission_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="241" name="role_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="336" parent="241" name="FKomxrs8a388bknvhjokh440waq">
+      <ColNames>permission_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="337" parent="241" name="FK9q28ewrhntqeipl1t04kh1be7">
+      <ColNames>role_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="338" parent="242" name="uid">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="339" parent="242" name="role_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="340" parent="242" name="FKgkmyslkrfeyn9ukmolvek8b8f">
+      <ColNames>uid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="341" parent="242" name="FKhh52n8vd4ny9ff4x9fb8v65qx">
+      <ColNames>role_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="342" parent="243" name="uid">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="243" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="243" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="243" name="salt">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="243" name="status">
+      <Position>5</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="243" name="username">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="348" parent="243" name="UK_nd4xxe4sfscx08oods9gi8y2v">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="349" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="350" parent="243" name="UK_nd4xxe4sfscx08oods9gi8y2v">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>UK_nd4xxe4sfscx08oods9gi8y2v</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

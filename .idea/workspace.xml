@@ -2,42 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0afe42bf-02ad-4d31-81b4-ee5e8e4adce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DES/controllers/fileopt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/img/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/Change Log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/__MACOSX/._Change Log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/__MACOSX/._uploadify.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/check-exists.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/jquery.uploadify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/jquery.uploadify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/uploadify-cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/uploadify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/uploadify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/uploadify.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/static/uploadify/uploadify.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/views/fileopt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/views/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DES/views/test.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTest/desTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTest/mysqlTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forTest/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TickietKill/models/ConnectPool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TickietKill/models/TickietModel.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0911ac8d-6ccc-47e3-a88c-743bf7edb674.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0911ac8d-6ccc-47e3-a88c-743bf7edb674.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DES/DES.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES/DES.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DES/controllers/DESController.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES/controllers/DESController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DES/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DES/models/DESTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES/models/DESModels.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DES/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DES.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DES.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/movieCrawl.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/movieCrawl.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/DES/controllers.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/DES/controllers.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/DES/models.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/DES/models.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/controllers.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/controllers.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/models.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/models.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/routers.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/movieCrawl/routers.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TickietKill/models/redisModel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/TickietKill/models/redisModel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gocv.io/x/gocv/win_build_opencv.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/src/gocv.io/x/gocv/win_build_opencv.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movieCrawl/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/movieCrawl/conf/app.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,21 +38,6 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="go@192.168.117.132" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="go@192.168.117.132" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="go@192.168.117.132" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="go: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -92,7 +56,7 @@
         <item name="localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="go: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="des_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="anju_ke: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -101,64 +65,83 @@
     <session id="-1761612525">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="51" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.22" value="8" />
+          <entry key="project.open.time.23" value="7" />
+          <entry key="project.open.time.24" value="8" />
+          <entry key="project.open.time.25" value="6" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="3" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="conf" value="12" />
+          <entry key="conf" value="21" />
           <entry key="css" value="1" />
-          <entry key="go" value="61" />
-          <entry key="html" value="3" />
+          <entry key="des_table" value="1" />
+          <entry key="go" value="159" />
+          <entry key="html" value="7" />
           <entry key="js" value="3" />
-          <entry key="sql" value="7" />
-          <entry key="tpl" value="4" />
+          <entry key="l" value="2" />
+          <entry key="movie_info" value="8" />
+          <entry key="png" value="1" />
+          <entry key="sql" value="29" />
+          <entry key="tpl" value="7" />
+          <entry key="user_info" value="2" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Go" value="61" />
-          <entry key="HTML" value="3" />
+          <entry key="Database Element" value="11" />
+          <entry key="Go" value="159" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="1" />
           <entry key="JavaScript" value="3" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="SQL" value="3" />
-          <entry key="Scratch" value="4" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="SQL" value="12" />
+          <entry key="Scratch" value="17" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="conf" value="212" />
-          <entry key="go" value="4612" />
+          <entry key="conf" value="377" />
+          <entry key="go" value="13307" />
           <entry key="html" value="674" />
-          <entry key="sql" value="145" />
-          <entry key="tpl" value="134" />
+          <entry key="sql" value="1640" />
+          <entry key="tpl" value="168" />
           <entry key="txt" value="15" />
+          <entry key="yml" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4612" />
+          <entry key="Go" value="13306" />
           <entry key="HTML" value="674" />
-          <entry key="PLAIN_TEXT" value="361" />
-          <entry key="SQL" value="136" />
-          <entry key="Scratch" value="9" />
+          <entry key="PLAIN_TEXT" value="560" />
+          <entry key="RegExp" value="1" />
+          <entry key="SQL" value="407" />
+          <entry key="Scratch" value="1233" />
+          <entry key="YAML" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
         <counts>
-          <entry key=".len" value="1" />
+          <entry key=".len" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -166,34 +149,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DES/controllers/DESController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding>
-                <element signature="e#21#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/movieCrawl/controllers/movieCrawlController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="e#21#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/find_movie.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="4554">
+              <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="35" />
               <folding>
                 <element signature="e#16#65#0" expanded="true" />
               </folding>
@@ -202,22 +161,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/movie_info.go">
+        <entry file="file://$PROJECT_DIR$/src/rooms/models/findARoom.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-              <folding>
-                <element signature="e#26#132#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1127">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/app.conf">
+        <entry file="file://$PROJECT_DIR$/src/rooms/models/redis.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="230">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rooms/models/roomTest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rooms/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -225,47 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DES/models/DESModels.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-              <folding>
-                <element signature="e#16#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DES/views/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DES/conf/app.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/dev.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="60" />
+            <state relative-caret-position="943">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -283,6 +221,7 @@
     <findStrings>
       <find>connectRedis</find>
       <find>Test</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="F:\go\goinstall" />
@@ -294,28 +233,54 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go" />
-        <option value="$PROJECT_DIR$/src/movieCrawl/controllers/movieCrawlController.go" />
-        <option value="$PROJECT_DIR$/src/movieCrawl/conf/dev.conf" />
         <option value="$PROJECT_DIR$/src/movieCrawl/conf/onLine.conf" />
         <option value="$PROJECT_DIR$/src/DES/models/DESTest.go" />
-        <option value="$PROJECT_DIR$/src/movieCrawl/conf/app.conf" />
         <option value="$PROJECT_DIR$/src/forTest/mysqlTest.go" />
         <option value="$PROJECT_DIR$/src/forTest/test.go" />
         <option value="$PROJECT_DIR$/src/DES/models/fileopt.go" />
         <option value="$PROJECT_DIR$/src/DES/routers/router.go" />
         <option value="$PROJECT_DIR$/src/DES/views/fileopt.html" />
-        <option value="$PROJECT_DIR$/src/DES/controllers/fileopt.go" />
         <option value="$PROJECT_DIR$/src/DES/views/test.tpl" />
         <option value="$PROJECT_DIR$/src/DES/main.go" />
         <option value="$PROJECT_DIR$/src/forTest/desTest.go" />
-        <option value="$PROJECT_DIR$/src/main.go" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0e412ce9-7855-4ef0-a950-233cbc2e479a/console.sql" />
         <option value="$PROJECT_DIR$/src/DES/table.sql" />
+        <option value="$PROJECT_DIR$/src/DES/views/page.html" />
         <option value="$PROJECT_DIR$/src/DES/controllers/DESController.go" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql" />
+        <option value="$PROJECT_DIR$/src/DES/controllers/fileopt.go" />
         <option value="$PROJECT_DIR$/src/DES/conf/app.conf" />
         <option value="$PROJECT_DIR$/src/DES/models/DESModels.go" />
-        <option value="$PROJECT_DIR$/src/DES/views/page.html" />
+        <option value="$PROJECT_DIR$/src/forTest/reflectTest.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/routers/router.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/conf/app.conf" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/conf/dev.conf" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/controllers/test.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/find_movie.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/createMovieCommentTable.sql" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/register.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/redis.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/goRedis.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/controllers/redisClientController.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/movie_comment.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/models/movie_info.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/views/index.tpl" />
+        <option value="$PROJECT_DIR$/src/TickietKill/controllers/default.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/routers/router.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/conf/app.yml" />
+        <option value="$PROJECT_DIR$/src/TickietKill/controllers/TestController.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/conf/app.conf" />
+        <option value="$PROJECT_DIR$/src/TickietKill/models/ConnectPool.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/models/TickietModel.go" />
+        <option value="$PROJECT_DIR$/src/TickietKill/models/redisModel.go" />
+        <option value="$PROJECT_DIR$/src/rooms/models/FindBRoom.go" />
+        <option value="$PROJECT_DIR$/src/rooms/models/redis.go" />
+        <option value="$PROJECT_DIR$/src/rooms/controllers/test.go" />
+        <option value="$PROJECT_DIR$/src/movieCrawl/controllers/movieCrawlController.go" />
+        <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/rooms/models/findARoom.go" />
+        <option value="$PROJECT_DIR$/src/rooms/main.go" />
+        <option value="$PROJECT_DIR$/src/rooms/models/roomTest.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql" />
       </list>
     </option>
   </component>
@@ -343,6 +308,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,100 +325,61 @@
               <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
               <item name="gopath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
+              <item name="gocv.io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
               <item name="gopath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="gocv.io" type="462c0819:PsiDirectoryNode" />
+              <item name="x" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
               <item name="gopath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="gocv.io" type="462c0819:PsiDirectoryNode" />
+              <item name="x" type="462c0819:PsiDirectoryNode" />
+              <item name="gocv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DES" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="forTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="movieCrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="movieCrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="movieCrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gopath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gopath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="movieCrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="go.dep.advertise" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\go\gopath\src\DES\static\img" />
-      <recent name="F:\go\gopath\src\DES\static\css" />
-      <recent name="F:\go\gopath\src\DES\views" />
-      <recent name="F:\go\gopath\src\DES\static" />
-      <recent name="F:\go\gopath\src\DES\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\go\gopath\src\DES\static\js" />
       <recent name="F:\go\gopath\src\DES\controllers" />
       <recent name="F:\go\gopath" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\go\gopath" />
+      <recent name="F:\go\gopath\src\DES\static\img" />
+      <recent name="F:\go\gopath\src\DES\static\css" />
+      <recent name="F:\go\gopath\src\DES\views" />
+      <recent name="F:\go\gopath\src\DES\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +394,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gopath" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/rooms/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gopath" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -477,9 +413,25 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build reflectTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gopath" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/forTest/reflectTest.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build reflectTest.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build reflectTest.go" />
       </list>
     </recent_temporary>
   </component>
@@ -487,46 +439,46 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18230563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3216783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13426574" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7328671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3062937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" weight="0.28671327" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" weight="0.5356643" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.28671327" />
-      <window_info anchor="bottom" id="Database Console" order="11" weight="0.61958045" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.39300698" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.17962466" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3216783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13426574" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7328671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8965035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" visible="true" weight="0.28671327" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" weight="0.56363636" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.28671327" />
-      <window_info anchor="bottom" id="Database Console" order="11" weight="0.61958045" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="11" visible="true" weight="0.4993007" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.17962466" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17426273" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,294 +493,338 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0911ac8d-6ccc-47e3-a88c-743bf7edb674/schema/go/table/user_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0e412ce9-7855-4ef0-a950-233cbc2e479a/schema/go/table/movie_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/register.go" />
+    <entry file="das://0911ac8d-6ccc-47e3-a88c-743bf7edb674/schema/go/table/movie_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/go-redis/redis/commands.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="758" column="58" selection-start-line="758" selection-start-column="52" selection-end-line="758" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/go-redis/redis/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/controllers/redisClientController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DES/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DES/models/DESModels.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/goc2p/basic/set/hash_set.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="-989">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/views/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="85" column="54" lean-forward="true" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/go-redis/redis/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="395" column="5" selection-start-line="395" selection-start-column="5" selection-end-line="395" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/createMovieTableSQL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/conf/app.yml" />
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/gomodule/redigo/redis/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/controllers/default.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/controllers/TestController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/goredis/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="795" lean-forward="true" selection-start-line="795" selection-end-line="795" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/goRedis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/models/redisModel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../goinstall/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1069" column="18" selection-start-line="1069" selection-start-column="18" selection-end-line="1069" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/tests/default_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/elasticModel.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/beego/router.go">
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/models/TickietModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/routers/router.go">
+    <entry file="file://$PROJECT_DIR$/src/TickietKill/models/ConnectPool.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="184">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DES/views/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/movie_comment.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/redis.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/beego/orm/models_boot.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="304" column="32" lean-forward="true" selection-start-line="304" selection-start-column="32" selection-end-line="304" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/onLine.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/beego/orm/orm.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12006">
-          <caret line="530" column="19" selection-start-line="530" selection-start-column="19" selection-end-line="530" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/views/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="75" column="6" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../goinstall/src/encoding/base64/base64.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8211">
-          <caret line="360" column="43" selection-start-line="360" selection-start-column="40" selection-end-line="360" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../goinstall/src/crypto/des/cipher.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/tests/default_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/golang/tools/godoc/short/tmpl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="95" column="87" selection-start-line="95" selection-start-column="87" selection-end-line="95" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/static/js/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/beego/context/input.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/views/fileopt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/controllers/fileopt.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/views/test.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forTest/desTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="e#14#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../goinstall/src/crypto/cipher/cipher.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e412ce9-7855-4ef0-a950-233cbc2e479a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/table.sql">
+    <entry file="file://$PROJECT_DIR$/src/rooms/controllers/default.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+        <state relative-caret-position="528">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/createTableSQL.sql">
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/movie_info.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forTest/mysqlTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/forTest/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/dev.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="60" />
+        <state relative-caret-position="287">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/movieCrawl/controllers/movieCrawlController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#21#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="93">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/rooms/models/findBRoom.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movieCrawl/createMovieCommentTable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rooms/controllers/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/astaxie/beego/orm/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="338" column="32" lean-forward="true" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/find_movie.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="4554">
+          <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="35" />
           <folding>
             <element signature="e#16#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/models/movie_info.go">
+    <entry file="file://$PROJECT_DIR$/src/rooms/models/findARoom.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="1127">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rooms/models/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
-            <element signature="e#26#132#0" expanded="true" />
+            <element signature="e#16#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/movieCrawl/conf/app.conf">
+    <entry file="file://$PROJECT_DIR$/src/rooms/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/conf/app.conf">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0911ac8d-6ccc-47e3-a88c-743bf7edb674/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="943">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/controllers/DESController.go">
+    <entry file="file://$PROJECT_DIR$/src/rooms/models/roomTest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <element signature="e#21#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/models/DESModels.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="e#16#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES/views/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="467">
+          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -69,6 +69,8 @@ func PutInHighQueue(userName string)error{
 	}
 	return err
 }
+
+//从queue中取最后一个
 func PutOutLowQueue()string{
 	c := NewRedisPool().Get()
 	userName,err := redis.String(c.Do("RPOP",LOW_LIST))
@@ -92,4 +94,9 @@ func PutOutHgihQueue()string{
 		return ""
 	}
 	return userName
+}
+
+//查询的redisModel
+func QueryTickiet()(int){
+
 }
